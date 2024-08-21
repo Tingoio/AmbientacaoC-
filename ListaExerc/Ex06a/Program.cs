@@ -7,19 +7,27 @@ Random rand = new Random();
 for(int i = 0; i < vet.Length; i++)
 {
 // 3. Descobrir como gerar um valor aleatório
-    vet[i] = rand.Next(100);
+    vet[i] = rand.Next(1000);
     Console.Write(vet[i] + "|");
 }
 
 Console.WriteLine("\n");
-// 4. Ordenar o vetor usando o Bubble Sort
-for(int i = 0; i < vet.Length - 1; i++)
-{
-    if(i>i+1)
+bool troca = false;
+do{
+    // 4. Ordenar o vetor usando o Bubble Sort
+    troca = false;
+    for(int i = 0; i < vet.Length - 1; i++)
     {
-        int aux = vet[i];
-        vet[i] = vet[i+1];
-        vet[i+1] = aux;
+        if(vet[i]>vet[i+1])
+        {
+            troca = true;
+            int aux = vet[i];
+            vet[i] = vet[i+1];
+            vet[i+1] = aux;
+        }
     }
+}while(troca == true);
+
+for(int i = 0; i < vet.Length; i++){
     Console.Write(vet[i] + "|");
 }

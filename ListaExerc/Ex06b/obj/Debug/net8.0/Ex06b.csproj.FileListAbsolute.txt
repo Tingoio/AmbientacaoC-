@@ -1,0 +1,15 @@
+C:\_ws\Cs\ListaExerc\Ex06b\obj\Debug\net8.0\Ex06b.GeneratedMSBuildEditorConfig.editorconfig
+C:\_ws\Cs\ListaExerc\Ex06b\obj\Debug\net8.0\Ex06b.AssemblyInfoInputs.cache
+C:\_ws\Cs\ListaExerc\Ex06b\obj\Debug\net8.0\Ex06b.AssemblyInfo.cs
+C:\_ws\Cs\ListaExerc\Ex06b\obj\Debug\net8.0\Ex06b.csproj.CoreCompileInputs.cache
+C:\_ws\Cs\ListaExerc\Ex06b\obj\Debug\net8.0\Ex06b.sourcelink.json
+C:\_ws\Cs\ListaExerc\Ex06b\bin\Debug\net8.0\Ex06b.exe
+C:\_ws\Cs\ListaExerc\Ex06b\bin\Debug\net8.0\Ex06b.deps.json
+C:\_ws\Cs\ListaExerc\Ex06b\bin\Debug\net8.0\Ex06b.runtimeconfig.json
+C:\_ws\Cs\ListaExerc\Ex06b\bin\Debug\net8.0\Ex06b.dll
+C:\_ws\Cs\ListaExerc\Ex06b\bin\Debug\net8.0\Ex06b.pdb
+C:\_ws\Cs\ListaExerc\Ex06b\obj\Debug\net8.0\Ex06b.dll
+C:\_ws\Cs\ListaExerc\Ex06b\obj\Debug\net8.0\refint\Ex06b.dll
+C:\_ws\Cs\ListaExerc\Ex06b\obj\Debug\net8.0\Ex06b.pdb
+C:\_ws\Cs\ListaExerc\Ex06b\obj\Debug\net8.0\Ex06b.genruntimeconfig.cache
+C:\_ws\Cs\ListaExerc\Ex06b\obj\Debug\net8.0\ref\Ex06b.dll

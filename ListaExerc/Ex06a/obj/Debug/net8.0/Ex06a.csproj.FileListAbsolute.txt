@@ -1,0 +1,15 @@
+C:\_ws\Cs\ListaExerc\Ex06a\bin\Debug\net8.0\Ex06a.exe
+C:\_ws\Cs\ListaExerc\Ex06a\bin\Debug\net8.0\Ex06a.deps.json
+C:\_ws\Cs\ListaExerc\Ex06a\bin\Debug\net8.0\Ex06a.runtimeconfig.json
+C:\_ws\Cs\ListaExerc\Ex06a\bin\Debug\net8.0\Ex06a.dll
+C:\_ws\Cs\ListaExerc\Ex06a\bin\Debug\net8.0\Ex06a.pdb
+C:\_ws\Cs\ListaExerc\Ex06a\obj\Debug\net8.0\Ex06a.GeneratedMSBuildEditorConfig.editorconfig
+C:\_ws\Cs\ListaExerc\Ex06a\obj\Debug\net8.0\Ex06a.AssemblyInfoInputs.cache
+C:\_ws\Cs\ListaExerc\Ex06a\obj\Debug\net8.0\Ex06a.AssemblyInfo.cs
+C:\_ws\Cs\ListaExerc\Ex06a\obj\Debug\net8.0\Ex06a.csproj.CoreCompileInputs.cache
+C:\_ws\Cs\ListaExerc\Ex06a\obj\Debug\net8.0\Ex06a.sourcelink.json
+C:\_ws\Cs\ListaExerc\Ex06a\obj\Debug\net8.0\Ex06a.dll
+C:\_ws\Cs\ListaExerc\Ex06a\obj\Debug\net8.0\refint\Ex06a.dll
+C:\_ws\Cs\ListaExerc\Ex06a\obj\Debug\net8.0\Ex06a.pdb
+C:\_ws\Cs\ListaExerc\Ex06a\obj\Debug\net8.0\Ex06a.genruntimeconfig.cache
+C:\_ws\Cs\ListaExerc\Ex06a\obj\Debug\net8.0\ref\Ex06a.dll
