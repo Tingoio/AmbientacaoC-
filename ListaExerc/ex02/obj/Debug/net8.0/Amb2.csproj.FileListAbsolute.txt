@@ -1,0 +1,14 @@
+C:\_ws\C#\Amb2\bin\Debug\net8.0\Amb2.exe
+C:\_ws\C#\Amb2\bin\Debug\net8.0\Amb2.deps.json
+C:\_ws\C#\Amb2\bin\Debug\net8.0\Amb2.runtimeconfig.json
+C:\_ws\C#\Amb2\bin\Debug\net8.0\Amb2.dll
+C:\_ws\C#\Amb2\bin\Debug\net8.0\Amb2.pdb
+C:\_ws\C#\Amb2\obj\Debug\net8.0\Amb2.GeneratedMSBuildEditorConfig.editorconfig
+C:\_ws\C#\Amb2\obj\Debug\net8.0\Amb2.AssemblyInfoInputs.cache
+C:\_ws\C#\Amb2\obj\Debug\net8.0\Amb2.AssemblyInfo.cs
+C:\_ws\C#\Amb2\obj\Debug\net8.0\Amb2.csproj.CoreCompileInputs.cache
+C:\_ws\C#\Amb2\obj\Debug\net8.0\Amb2.dll
+C:\_ws\C#\Amb2\obj\Debug\net8.0\refint\Amb2.dll
+C:\_ws\C#\Amb2\obj\Debug\net8.0\Amb2.pdb
+C:\_ws\C#\Amb2\obj\Debug\net8.0\Amb2.genruntimeconfig.cache
+C:\_ws\C#\Amb2\obj\Debug\net8.0\ref\Amb2.dll
