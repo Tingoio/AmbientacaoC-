@@ -1,7 +1,11 @@
 ###Testar a primeira funcionalidade
 GET http://localhost:5263
-###Testar a segunda funcionalidade
-GET http://localhost:5263/segundafuncionalidade
 
-###Testar a terceira funcionalidade
+###Testar a impressão de objeto
 GET http://localhost:5263/retornarendereco
+
+###Listar de produtos
+GET http://localhost:5263/produto/listar
+
+###Cadastrar produto
+POST http://localhost:5263/produto/cadastrar/mouse
