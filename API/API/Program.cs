@@ -50,6 +50,7 @@ app.MapPost("/produto/cadastrar/{nome}", (string nome) =>
 
 //Criar uma funcionalidade/Endpoint para receber informações
 // - Receber informações pela URL da requisição
+
 // - Receber informações pelo corpo da requisição
 // - Guardar as informações em uma lista
 
