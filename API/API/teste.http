@@ -4,8 +4,18 @@ GET http://localhost:5263
 ###Testar a impressão de objeto
 GET http://localhost:5263/retornarendereco
 
-###Listar de produtos
+###Listar produtos
 GET http://localhost:5263/produto/listar
 
+###Buscar produto
+GET http://localhost:5263/produto/buscar/Pasdiuahsdd
+
 ###Cadastrar produto
-POST http://localhost:5263/produto/cadastrar/mouse
+POST http://localhost:5263/produto/cadastrar/
+Content-Type: application/json
+
+{
+    "Nome" : "Agua",
+    "Preco" : 5.00,
+    "Quantidade" : 1
+}

@@ -1,4 +1,5 @@
 using API.Models;
+using Microsoft.AspNetCore.Mvc;
 //Testar as APIs 
 // - Rest Client - Extensão do VsCode
 // - Postman
@@ -17,24 +18,48 @@ produtos.Add(new Produto(){Nome = "Headset", Preco = 200, Quantidade = 12});
 //EndPoints - Funcionalidades
 //Request - Configurar a URL e o método/verbo HTTP
 //Response - Retornar os dados (json/xml) e
+
 app.MapGet("/", () => "API de Produtos");
 
 
 //GET: /produto/listar
-// app.MapGet("/produto/listar", () => 
-// {
-//     return Results.Ok(produtos);
-// });
+app.MapGet("/produto/listar", () => 
+{
+    if(produtos.Count > 0){
+        return Results.Ok(produtos); //Ok = Código de status 200
+    }
+    return Results.NotFound(produtos); //NotFound = Código de status 404
+});
+
+//GET: /produto/buscar
+app.MapGet("/produto/buscar/{nome}", (string nome) => {
+    foreach (Produto produtoCadastrado in produtos)
+    {
+        if(produtoCadastrado.Nome == nome){
+            return Results.Ok(produtoCadastrado);
+        }
+
+    }
+    return Results.NotFound();
+});
 
 //POST: /produto/cadastrar
-app.MapPost("/produto/cadastrar/{nome}", (string nome) => 
+app.MapPost("/produto/cadastrar", ([FromBody]Produto produto) => 
 {   
-    //Criar e preencher objeto
-    Produto produto = new Produto();
-    produto.Nome = nome;
     //Adicionando na lista
     produtos.Add(produto);
-    return Results.Ok(produtos);
+    return Results.Created("", produto);
+});
+
+//POST: /produto/deletar
+app.MapDelete("/produto/deletar/{nome}", (string nome) => {
+    foreach (Produto produtoCadastrado in produtos)
+    {
+        if(produtoCadastrado.Nome == nome){
+            return Results.Ok(produtoCadastrado);
+        }
+    }
+    return Results.NotFound();
 });
 
 // Impressão de objeto
